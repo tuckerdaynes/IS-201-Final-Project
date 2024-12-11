@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.navbar {
+    background-color: white; /* Background color of the navbar */
+    padding: 10px 20px; /* Optional padding inside the navbar */
+    display: flex; /* Enables Flexbox for horizontal alignment */
+    align-items: center; /* Centers items vertically */
+  }
+  
+  .navbar a {
+    color: black; /* Link text color */
+    text-decoration: none; /* Removes underline */
+    margin: 0 15px; /* Space between links */
+  }
+
+  a.jump {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a.jump:hover {
+    color: lightgray;
+  }
+  
+  
